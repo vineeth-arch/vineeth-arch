@@ -1,6 +1,6 @@
 [← Back to the studio](../README.md#selected-work)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/gst-invoice-dark.svg?v=di-20261028"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/gst-invoice.svg?v=di-20261028"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/gst-invoice.svg?v=di-20261028" width="100%" alt="GST Invoice Studio project study"></picture>
+<img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/gst-invoice-dark.svg?v=di-20261028" width="100%" alt="GST Invoice Studio project study">
 
 # GST Invoice Studio
 

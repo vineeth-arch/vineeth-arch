@@ -14,7 +14,7 @@ Custom GitHub profile README, original SVG identity and six project covers, six 
 
 ## Visual identity
 
-Use the supplied Design Innsaeit system: Bricolage Grotesque display, Hanken Grotesk body, bone/pink light mode and indigo/teal dark mode. Preserve tonal blocking, one accent per mode, flush-left type, circular arrows and systems rulers.
+Use the supplied Design Innsaeit system: Bricolage Grotesque display, Hanken Grotesk body, indigo/teal artwork for every public profile and case-study page, with bone/pink retained for print PDFs. Preserve tonal blocking, one accent per mode, flush-left type, circular arrows and systems rulers.
 
 ## Constraints
 

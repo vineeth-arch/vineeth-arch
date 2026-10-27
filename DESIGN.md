@@ -38,7 +38,7 @@ A flush-left Bricolage masthead introduces the practice. A fine systems ruler, n
 
 Circular arrows indicate linked studies. Oversized study numbers create hierarchy without adding unrelated colors. A Sunday-first dot-grid activity calendar uses single-letter weekday labels and real public data. Static assets preserve clarity without motion.
 
-Each graphic has light and dark variants. README and case studies select them through HTML picture/source elements and prefers-color-scheme. This follows browser appearance; an explicitly selected GitHub theme may differ from the operating system. Both variants are self-contained and legible. PDFs use the light palette for printing.
+Each graphic has light and dark variants. The public README and case studies always use the indigo/teal (-dark.svg) assets, regardless of browser or GitHub appearance. This is the selected public identity. Light artwork remains available as an alternate, and PDFs use the bone/pink palette for printing.
 
 ## Editorial content and privacy
 

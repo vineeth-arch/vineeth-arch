@@ -1,6 +1,6 @@
 [← Back to the studio](../README.md#selected-work)
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/identity-dark.svg?v=di-20261028"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/identity.svg?v=di-20261028"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/identity.svg?v=di-20261028" width="100%" alt="V / The studio identity project study"></picture>
+<img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/identity-dark.svg?v=di-20261028" width="100%" alt="V / The studio identity project study">
 
 # V / The studio identity
 
@@ -14,7 +14,7 @@ An interdisciplinary practice can look fragmented when design work and technical
 
 ## The system
 
-Bricolage Grotesque display type and Hanken Grotesk supporting text connect the portfolio. Bone and pink in light mode, indigo and teal in dark mode, tonal blocks, dot grids and circular arrows follow the Design Innsaeit visual system.
+Bricolage Grotesque display type and Hanken Grotesk supporting text connect the portfolio. Indigo and teal define the public artwork in every browser theme; bone and pink serve the print profiles. Tonal blocks, dot grids and circular arrows follow the Design Innsaeit visual system.
 
 ## Why it helps
 
