@@ -10,7 +10,7 @@ Communicate brand strategy, design, consulting and software-building capabilitie
 
 ## Scope
 
-Custom GitHub profile README, original SVG identity and six project covers, six case studies, three PDF and Markdown professional profiles, all 45 six-line project summaries, public activity infographic and weekly update workflow.
+Custom GitHub profile README, original SVG identity and six project covers, six case studies, three PDF and Markdown professional profiles, 44 six-line project summaries, public activity infographic and weekly update workflow.
 
 ## Visual identity
 

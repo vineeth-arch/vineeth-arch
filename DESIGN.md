@@ -42,7 +42,7 @@ Each graphic has light and dark variants. README and case studies select them th
 
 ## Editorial content and privacy
 
-Six case studies explain problems, systems and intended value. Three PDF and Markdown professional profiles offer different lenses. All 45 original six-line project summaries remain in native disclosure sections.
+Six case studies explain problems, systems and intended value. Three PDF and Markdown professional profiles offer different lenses. 44 six-line project summaries remain in native disclosure sections.
 
 Stories describe repository documentation, not new runtime tests. No career dates, degrees, client outcomes or device integrations are invented. Private source and client records remain private. The V/HOME browser screenshot comes from public commit b29c08dc71725f60f10095e12ca1d9d46120e721 at docs/screenshots/after-launcher-curated.png.
 

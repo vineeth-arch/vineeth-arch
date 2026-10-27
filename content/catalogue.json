@@ -69,11 +69,6 @@
     "Relationships and career",
     "A shared console with separate business-development and job-search workflows.\nCollects opportunities and organizes them for review rather than mixing both pipelines.\nIncludes deduplication, scoring, drafting and scheduled processing stages.\nUses Next.js, Supabase PostgreSQL and configurable AI assistance.\nHelps users review relevant opportunities and keep next actions in view.\nShared infrastructure does not mean shared outreach or automatic permission to contact people."
   ],
-  "Career-console": [
-    "Career Console",
-    "Relationships and career",
-    "An empty repository reserved under the Career Console name.\nNo application code or default README was present at this review.\nIt currently provides no user-facing career workflow.\nIts name alone does not establish features, architecture or integrations.\nAny eventual benefit depends on a future specification and implementation.\nListed for completeness as a placeholder, not a finished portfolio application."
-  ],
   "personal-brain-os": [
     "Brain Cockpit",
     "Knowledge and AI tools",

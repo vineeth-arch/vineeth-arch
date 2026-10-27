@@ -76,7 +76,7 @@ Currently exploring **personal intelligence systems**, **remote-first interfaces
 
 ## The project cabinet
 
-**45 projects. Nine shelves. Plenty of curiosity.**
+**44 projects. Nine shelves. Plenty of curiosity.**
 
 Open a shelf for six-line project notes: what each project does, who it helps and where it stands. Most source stays private; public projects link to their repositories. Placeholders and upstream adaptations are labeled honestly.
 
@@ -201,7 +201,7 @@ Built with TypeScript, Supabase and react-pageflip.
 </details>
 
 <details>
-<summary><strong>Relationships and career</strong> · 05 projects · People, opportunities and thoughtful follow-ups</summary>
+<summary><strong>Relationships and career</strong> · 04 projects · People, opportunities and thoughtful follow-ups</summary>
 
 ### DI Outreach Cockpit
 
@@ -247,16 +247,6 @@ Uses Next.js, Supabase PostgreSQL and configurable AI assistance.<br>
 Helps users review relevant opportunities and keep next actions in view.<br>
 Shared infrastructure does not mean shared outreach or automatic permission to contact people.
 
-### Career Console
-
-`Career-console` · Private source
-
-An empty repository reserved under the Career Console name.<br>
-No application code or default README was present at this review.<br>
-It currently provides no user-facing career workflow.<br>
-Its name alone does not establish features, architecture or integrations.<br>
-Any eventual benefit depends on a future specification and implementation.<br>
-Listed for completeness as a placeholder, not a finished portfolio application.
 
 </details>
 
