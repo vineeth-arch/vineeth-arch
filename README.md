@@ -1,18 +1,76 @@
-# Vineeth Nair
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/refs/heads/feat/recruiter-profile/assets/creative-lab-banner.png" width="100%" alt="Vineeth Nair. Design. Build. Stay curious. A playful violet poster with mint, yellow, orange and blue cut-paper forms.">
+</p>
 
-I build practical software around the work people already do: running a small business, maintaining relationships, managing information and making creative decisions.
+# Hi, I'm Vineeth.
 
-My projects span business tools, local utilities, design systems and LG webOS experiments. The work connects product thinking, interface design and implementation across TypeScript, React, Next.js, Python and self-hosted infrastructure.
+**Brand & packaging designer. Builder of useful things. Based in Mumbai.**
 
-## Project portfolio
+I run **Design Innsaeit** and follow good questions into unexpected projects: a calmer TV home screen, a better client handoff, a tiny tool that removes repetitive work. This is my working lab, where brand thinking becomes software people can use.
 
-This catalogue covers 45 project repositories. Most source repositories are private; their summaries remain public here. Public source links appear where available. Client records, personal documents and infrastructure credentials are excluded.
+[Selected work](#selected-work) &nbsp; / &nbsp; [Inside the lab](#inside-the-lab) &nbsp; / &nbsp; [All 45 projects](#the-project-cabinet) &nbsp; / &nbsp; [Say hello](#say-hello)
 
-Descriptions reflect repository documentation reviewed on 27 October 2026, not an independent deployment or security audit. Prototypes, placeholders and inherited open-source foundations are labeled explicitly.
+## Selected work
 
-**Public TV projects:** [V/TV Sleep](https://github.com/vineeth-arch/lgtv) · [V/HOME](https://github.com/vineeth-arch/v-home)
+### 01 / A better place to land
 
-## TV and home
+**[V/HOME](https://github.com/vineeth-arch/v-home) + [V/TV Sleep](https://github.com/vineeth-arch/lgtv)** · Public source
+
+An ad-free launcher for an LG TV, paired with a sleep timer that lives on the television itself. Favorite apps, shared household notes and simple controls bring a little more intention to the living room.
+
+[![V/HOME browser simulation showing a remote-friendly favorites row, app tiles, HDMI inputs and household notes.](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/refs/heads/feat/recruiter-profile/assets/v-home-preview.png)](https://github.com/vineeth-arch/v-home)
+
+<sub>Actual project preview in browser simulation, not a photograph of the TV. Developer Mode required; model-specific limitations are documented in each repository.</sub>
+
+**Explore:** [Launcher & setup](https://github.com/vineeth-arch/v-home#readme) · [Sleep timer & setup](https://github.com/vineeth-arch/lgtv#readme)
+
+### 02 / Less chasing. Better briefs.
+
+**FormEngine** · Client collaboration · Private source
+
+Client answers rarely arrive in one neat document. FormEngine brings written responses, voice notes and uploads into a branded questionnaire workspace, with saved progress and a review workflow for turning inputs into a creative brief.
+
+<sub>TypeScript · Client experience · Workflow design</sub>
+
+### 03 / Find the type that feels right
+
+**Brand Font Lab** · Design utility · Private source
+
+Put the actual brand name in the fonts you're considering. Compare wordmarks, adjust spacing and export a proof sheet, keeping the designer's eye at the center of the decision.
+
+<sub>React · TypeScript · Font tooling · Browser-local storage</sub>
+
+### 04 / Paperwork with fewer rough edges
+
+**GST Invoice Studio** · Small-business tooling · Private source
+
+An India-focused workspace for invoices and purchase orders. Reusable client data, GST tax splits and PDF output help a small studio move from repeated typing to a more consistent document workflow.
+
+<sub>Next.js · TypeScript · Document systems · Local-first storage</sub>
+
+## Inside the lab
+
+**A few questions that keep me making:**
+
+- Can a small tool remove an everyday irritation? That's how **Font Drop** installs incoming font archives.
+- Can a visual system have a repeatable recipe? **Sugoonj Cymatics Lab** makes graphic marks from numerical wave models.
+- Can software help us remember people more thoughtfully? **Handshake** keeps context and commitments, with a human approving facts and pressing send.
+- Can a greeting feel handmade on a screen? **Digibouquet** lets someone build and share a personal bouquet.
+
+**My approach:** understand the routine, shape the experience, build a focused tool, and make its limits visible.
+
+**Things I work with**<br>
+Brand strategy & identity · Packaging · Interface design · Creative tools<br>
+TypeScript · React · Next.js · Python · Supabase · LG webOS
+
+## The project cabinet
+
+**45 projects. Nine shelves. Plenty of curiosity.**
+
+Open a shelf for six-line project notes: what each project does, who it helps and where it stands. Most source stays private; public projects link to their repositories. Placeholders and upstream adaptations are labeled honestly.
+
+<details>
+<summary><strong>TV and home</strong> · 02 projects · Launchers, timers and the living room</summary>
 
 ### [V/TV Sleep](https://github.com/vineeth-arch/lgtv)
 
@@ -36,7 +94,10 @@ Integrates V/TV Sleep rather than creating a second shutdown scheduler.<br>
 Helps households reach their apps and shared information from one screen.<br>
 Requires Developer Mode; its optional Mac helper redirects LG Home on a best-effort basis.
 
-## Business operations
+</details>
+
+<details>
+<summary><strong>Business operations</strong> · 08 projects · Invoices, client portals and smoother handoffs</summary>
 
 ### GST Invoice Studio
 
@@ -126,7 +187,10 @@ Supports client domains through a shared Next.js application.<br>
 Helps studios distribute brochures and catalogues as easy-to-open digital editions.<br>
 Built with TypeScript, Supabase and react-pageflip.
 
-## Relationships and career
+</details>
+
+<details>
+<summary><strong>Relationships and career</strong> · 05 projects · People, opportunities and thoughtful follow-ups</summary>
 
 ### DI Outreach Cockpit
 
@@ -183,7 +247,10 @@ Its name alone does not establish features, architecture or integrations.<br>
 Any eventual benefit depends on a future specification and implementation.<br>
 Listed for completeness as a placeholder, not a finished portfolio application.
 
-## Knowledge and AI tools
+</details>
+
+<details>
+<summary><strong>Knowledge and AI tools</strong> · 07 projects · Capture, research, reading and reusable knowledge</summary>
 
 ### Brain Cockpit
 
@@ -262,7 +329,10 @@ Uses a macOS launcher around a local Python and Streamlit service.<br>
 Helps users prepare portable text for notes, search and downstream tools.<br>
 Current installation needs Python and dependencies; optional integrations need their own setup.
 
-## Design and creative tools
+</details>
+
+<details>
+<summary><strong>Design and creative tools</strong> · 07 projects · Type, motion, generative marks and small delights</summary>
 
 ### Font Drop
 
@@ -341,7 +411,10 @@ No logo files were present according to the repository documentation.<br>
 The intended benefit is a clearer handoff between concept work and approved identity assets.<br>
 Currently a planning container, not a shipped design application.
 
-## Finance and local utilities
+</details>
+
+<details>
+<summary><strong>Finance and local utilities</strong> · 05 projects · Money clarity and careful local tools</summary>
 
 ### Money View
 
@@ -398,7 +471,10 @@ Related finance work references a separate live ledger, which this repository do
 The intended area is keeping personal spending records easier to review.<br>
 Listed as a placeholder; working application capabilities cannot be inferred from its name.
 
-## Websites and brand delivery
+</details>
+
+<details>
+<summary><strong>Websites and brand delivery</strong> · 07 projects · Websites, brand systems and presentations</summary>
 
 ### [Keri Crafts Website](https://github.com/vineeth-arch/keri-crafts-site)
 
@@ -477,7 +553,10 @@ Points to credential-management pages without storing credentials itself.<br>
 Helps an operator spend less time finding the right service or dashboard.<br>
 Built as a small web interface focused on navigation rather than business-data storage.
 
-## Open-source adaptations
+</details>
+
+<details>
+<summary><strong>Open-source adaptations</strong> · 02 projects · Scheduling and short links, with upstream credit</summary>
 
 ### DI Link Shortener — Sink-based
 
@@ -501,7 +580,10 @@ Can help reduce the back-and-forth involved in arranging a meeting.<br>
 The README recommends personal, non-production use and requires competent server administration.<br>
 Upstream authorship is credited; studio-specific customization is not established by the README.
 
-## Household wellbeing
+</details>
+
+<details>
+<summary><strong>Household wellbeing</strong> · 02 projects · Everyday plans, meals and check-ins</summary>
 
 ### Sunshine Grove
 
@@ -524,3 +606,15 @@ Supports household membership and separate admin, editor and member roles.<br>
 Includes authentication and configured image-upload infrastructure.<br>
 Targets less fragmented meal coordination across people in the same household.<br>
 Built with React, Vite, TypeScript and Supabase; setup requires household provisioning.
+
+</details>
+
+<sub>Project notes reflect repository documentation reviewed on 27 October 2026. Feature maturity varies; the notes distinguish planned, prototype and implemented work. Keri Crafts and Avarta website source remain public temporarily for hosting continuity.</sub>
+
+## Say hello
+
+Interested in thoughtful design, practical software or the interesting space between them?
+
+**[Start a conversation](mailto:vineeth@designinnsaeit.com)** · [Browse public repositories](https://github.com/vineeth-arch?tab=repositories)
+
+<sub>Made with curiosity in Mumbai. Always room for one more good question.</sub>
