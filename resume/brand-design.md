@@ -25,8 +25,13 @@ A personal identity joining brand strategy, design, consulting and software prod
 
 An ad-free LG webOS launcher designed around a shared living room. Households can reach familiar apps and shared information from one intentional home screen.
 
+## Education & learning
+
+- Kerala State Institute of Design / 2019–2021
+- Strategic Thinking / LinkedIn certification / February 2023
+
 ## Contact
 
-[Email Vineeth](mailto:vineeth@designinnsaeit.com) · [GitHub](https://github.com/vineeth-arch)
+[Email Vineeth](mailto:vineeth@designinnsaeit.com) · [GitHub](https://github.com/vineeth-arch) · [LinkedIn](https://www.linkedin.com/in/vineeth-nair-product-designer/)
 
-Project-led professional profile. Career dates, education and measured outcomes are omitted unless verified.
+Project-led professional profile. Education and certification drawn from the public LinkedIn profile; no degree title, employment dates or measured outcomes inferred. Updated 28 October 2026.

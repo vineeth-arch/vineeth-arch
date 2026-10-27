@@ -42,6 +42,13 @@ Choose the lens that fits your project. Each one-page professional profile is gr
 | Positioning, identity and translating complexity into clear visual systems. | Software products, knowledge workflows and thoughtful automation. | The complete design, business and technology perspective. |
 | [Download PDF](resume/brand-design.pdf) · [Read online](resume/brand-design.md) | [Download PDF](resume/creative-technology.pdf) · [Read online](resume/creative-technology.md) | [Download PDF](resume/integrated-profile.pdf) · [Read online](resume/integrated-profile.md) |
 
+## Background
+
+**Kerala State Institute of Design** · 2019–2021  
+**Strategic Thinking** · LinkedIn certification · February 2023
+
+[More about my professional journey on LinkedIn](https://www.linkedin.com/in/vineeth-nair-product-designer/)
+
 ## Tools follow the problem
 
 **Design:** brand research, visual identity, packaging, typography, interface design.  
@@ -608,7 +615,7 @@ Built with React, Vite, TypeScript and Supabase; setup requires household provis
 
 Have a brand to clarify, a workflow to untangle or a useful product to build?
 
-**[vineeth@designinnsaeit.com](mailto:vineeth@designinnsaeit.com)**
+**[vineeth@designinnsaeit.com](mailto:vineeth@designinnsaeit.com)** · **[Connect on LinkedIn](https://www.linkedin.com/in/vineeth-nair-product-designer/)**
 
 Mumbai, India · Design Innsaeit · Open a conversation with the problem you are working on.
 

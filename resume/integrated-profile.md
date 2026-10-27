@@ -25,8 +25,13 @@ An India-focused workspace for invoices, purchase orders and reusable business r
 
 A self-hosted cockpit connecting everyday capture with a Markdown knowledge base. A consistent capture-to-knowledge workflow reduces fragmentation and makes personal context easier to revisit.
 
+## Education & learning
+
+- Kerala State Institute of Design / 2019–2021
+- Strategic Thinking / LinkedIn certification / February 2023
+
 ## Contact
 
-[Email Vineeth](mailto:vineeth@designinnsaeit.com) · [GitHub](https://github.com/vineeth-arch)
+[Email Vineeth](mailto:vineeth@designinnsaeit.com) · [GitHub](https://github.com/vineeth-arch) · [LinkedIn](https://www.linkedin.com/in/vineeth-nair-product-designer/)
 
-Project-led professional profile. Career dates, education and measured outcomes are omitted unless verified.
+Project-led professional profile. Education and certification drawn from the public LinkedIn profile; no degree title, employment dates or measured outcomes inferred. Updated 28 October 2026.
