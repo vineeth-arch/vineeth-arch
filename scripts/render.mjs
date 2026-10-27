@@ -1,21 +1,160 @@
 import fs from 'node:fs';
-import {fileURLToPath} from 'node:url';
-import path from 'node:path';
-const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
-const glyphs=JSON.parse(fs.readFileSync(`${root}/content/glyphs.json`));
-const studio=JSON.parse(fs.readFileSync(`${root}/content/studio.json`));
-const C={paper:'#F3F0E7',ink:'#202120',violet:'#4826C6',mint:'#C1F579',line:'#D5D2C9'};
-export const escapeXML=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
-function text(s,x,y,size=24,color=C.ink,weight=600){let pos=x;let out='';for(const ch of s){const g=glyphs.weights[weight][ch]||glyphs.weights[weight]['?'];out+=`<path d="${g.d}" transform="translate(${pos} ${y}) scale(${size/glyphs.units} ${-size/glyphs.units})"/>`;pos+=g.w*size/glyphs.units;}return `<g fill="${color}" aria-label="${escapeXML(s)}">${out}</g>`;}
-function svg(title,body,w=1200,h=630,bg=C.paper){return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" role="img"><title>${escapeXML(title)}</title><rect width="${w}" height="${h}" fill="${bg}"/>${body}</svg>`;}
-function line(x,y,x2,y2,color=C.line){return `<path d="M${x} ${y}L${x2} ${y2}" stroke="${color}" fill="none"/>`;}
-function rect(x,y,w,h,c,r=0){return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${r}" fill="${c}"/>`;}
-function monogram(x,y,s,color){return `<path d="M0 0H70L145 205L220 0H290L178 300H112ZM325 0H370L260 300H215Z" fill="${color}" transform="translate(${x} ${y}) scale(${s})"/>`;}
-let hero=text('V /',55,65,30)+text('VINEETH NAIR',150,65,22)+text('INDEPENDENT PRACTICE / MUMBAI',1080,65,18);
-hero+=line(55,90,1545,90)+text('Design.',55,235,142,C.ink,800)+text('Systems.',55,375,142,C.ink,800)+text('Intelligence.',55,515,142,C.violet,800);
-hero+=rect(1070,132,475,390,C.violet)+monogram(1135,165,.95,C.mint)+text('THOUGHT → FORM → FUNCTION',1100,497,17,C.paper);
-hero+=text('BRAND STRATEGY / DESIGN / CONSULTING / SOFTWARE',55,592,23)+text('IDEAS, MADE USEFUL.',1240,592,18);
-fs.writeFileSync(`${root}/assets/studio/hero.svg`,svg('Vineeth Nair / Design. Systems. Intelligence.',hero,1600,635));
-function art(i){let s='';if(i===0){for(let j=0;j<4;j++){s+=rect(410+j*100,180+j*27,360,185,j%2?C.mint:C.ink);s+=text(['SOURCE 01','OBSERVE','CONNECT','MAKE SENSE'][j],435+j*100,222+j*27,19,j%2?C.ink:C.paper);for(let k=0;k<3;k++)s+=line(435+j*100,245+j*27+k*23,700+j*100,245+j*27+k*23,j%2?'#65853F':'#6D6D68');}}else if(i===1){s+=rect(520,150,320,260,C.paper)+text('INVOICE / 001',548,198,24);for(let j=0;j<5;j++)s+=line(548,225+j*27,810,225+j*27);s+=`<circle cx="875" cy="327" r="92" fill="${C.mint}"/>`+text('GST',819,339,48)+text('REUSE',330,230,32,C.paper)+line(330,250,495,250,C.mint);}else if(i===2){const nodes=[[490,190],[740,155],[950,255],[790,390],[500,355]];for(const [x,y] of nodes)s+=line(700,270,x,y,C.ink);for(let j=0;j<nodes.length;j++){const[x,y]=nodes[j];s+=rect(x-55,y-30,110,60,j%2?C.paper:C.ink)+text(['NOTE','VOICE','LINK','REVIEW','PHOTO'][j],x-43,y+7,18,j%2?C.ink:C.paper);}s+=`<circle cx="700" cy="270" r="64" fill="${C.violet}"/>`+text('CONTEXT',650,277,20,C.paper);}else if(i===3){s+=rect(375,150,650,260,C.ink,16);for(let j=0;j<6;j++)s+=rect(410+j%3*192,185+Math.floor(j/3)*95,170,75,[C.violet,C.mint,C.paper][j%3],5);s+=line(700,410,700,442,C.ink)+line(610,442,790,442,C.ink);}else if(i===4){s+=rect(370,150,630,270,C.paper);for(let j=0;j<6;j++){s+=text(['MEMBERS','MEETINGS','ATTENDANCE','DUES','TREASURY','CHAPTER'][j],398,185+j*40,19);for(let k=0;k<7;k++)s+=rect(620+k*49,164+j*40,24,24,(k+j)%3===0?C.violet:C.mint,12);}}else{s+=monogram(400,150,.85,C.violet)+monogram(760,190,.55,C.ink);s+=line(350,420,1050,420,C.ink)+text('ONE MARK. CONNECTED EXPRESSIONS.',380,457,21); }return s;}
-for(const [i,p]of studio.projects.entries()){const dark=i===1||i===4,bg=dark?C.violet:i===2?C.mint:C.paper,fg=dark?C.paper:C.ink;let b=text(`${p.number} / ${p.tag}`,45,55,20,fg)+text('V /',1090,56,27,fg);b+=line(45,80,1155,80,dark?'#8067D8':C.line)+art(i);b+=text(p.title,45,530,p.title.length>22?49:56,fg,800)+text(p.headline,45,580,25,fg);fs.writeFileSync(`${root}/assets/studio/${p.slug}.svg`,svg(`${p.title}: ${p.headline}`,b,1200,630,bg));}
-if(fs.existsSync(`${root}/content/activity.json`)){const a=JSON.parse(fs.readFileSync(`${root}/content/activity.json`));let b=text('A WORKING PRACTICE',45,55,25)+text(`UPDATED ${a.updated}`,900,55,18)+text(String(a.total),45,155,80,C.violet,800)+text('PUBLIC-PROFILE CONTRIBUTIONS',45,192,17)+text(String(a.repos.length),45,280,65,C.ink,800)+text('PUBLIC REPOSITORIES, INCLUDING PROFILE',45,315,15);for(let i=0;i<a.days.length;i++){const d=a.days[i];b+=rect(480+Math.floor(i/7)*12,110+(i%7)*20,9,16,['#DFDCD3','#D7CFF4','#AC98E7','#7655D5',C.violet][d.level],2);}b+=text(`${a.days[0].date} — ${a.days.at(-1).date}`,480,282,19)+text('PUBLIC PROFILE DATA / STORIES CURATED BY HAND',480,315,16);fs.writeFileSync(`${root}/assets/studio/activity.svg`,svg('Public GitHub activity snapshot',b,1200,355));}
+import {
+  root, themes, text, display, rect, circle, line, arrow, monogram, svg, ruler
+} from './svg.mjs';
+
+const studio = JSON.parse(fs.readFileSync(`${root}/content/studio.json`));
+const assetPath = `${root}/assets/studio`;
+
+function write(name, content, themeName) {
+  const suffix = themeName === 'dark' ? '-dark' : '';
+  fs.writeFileSync(`${assetPath}/${name}${suffix}.svg`, content);
+}
+
+function hero(t) {
+  let body = display('V /', 56, 68, 36, t.ink);
+  body += text('VINEETH NAIR', 158, 62, 22, t.ink, 'body', 2);
+  body += text('DESIGN INNSAEIT / MUMBAI', 1110, 62, 18, t.muted, 'body', 1.5);
+  body += ruler(56, 93, 1488, t, 24);
+  body += display('Design.', 49, 253, 165, t.ink, 1000);
+  body += display('Systems.', 49, 390, 165, t.ink, 1000);
+  body += display('Intelligence.', 49, 527, 165, t.accent, 1030);
+  body += line(1110, 156, 1110, 549, t.border);
+  body += circle(1330, 319, 162, t.emphasis);
+  body += monogram(1219, 229, 0.6, t.ink);
+  body += text('THOUGHT', 1164, 526, 18, t.text, 'body', 2);
+  body += line(1260, 520, 1318, 520, t.border);
+  body += text('FORM', 1338, 526, 18, t.text, 'body', 2);
+  body += arrow(1500, 520, t);
+  body += line(56, 585, 1544, 585, t.border);
+  const capabilities = ['Brand strategy', 'Design', 'Consulting', 'Software products'];
+  for (const [i, label] of capabilities.entries()) {
+    const x = 56 + i * 376;
+    body += display(`0${i + 1}`, x, 646, 31, t.muted);
+    body += text(label, x + 55, 645, 24, t.ink);
+  }
+  body += text('INDEPENDENT PRACTICE. CONNECTED THINKING.', 56, 700, 16, t.muted, 'body', 2);
+  return svg('Vineeth Nair. Design. Systems. Intelligence.', body, 1600, 732, t);
+}
+
+function research(t) {
+  let body = '';
+  const records = [
+    [440, 145, '01', 'SOURCE'], [565, 205, '02', 'OBSERVE'], [690, 265, '03', 'CONNECT']
+  ];
+  for (const [x, y, n, label] of records) {
+    body += rect(x, y, 330, 170, t.stamp);
+    body += text(n, x + 22, y + 37, 19, t.muted);
+    body += text(label, x + 65, y + 37, 20, t.ink, 'body', 1.5);
+    for (let row = 0; row < 3; row++) body += line(x + 22, y + 67 + row * 24, x + 270, y + 67 + row * 24, t.border);
+  }
+  body += circle(1040, 343, 48, t.accent);
+  body += `<path d="M1022 343l12 12 24 -27" stroke="${t.onAccent}" stroke-width="5" fill="none"/>`;
+  return body;
+}
+
+function invoice(t) {
+  let body = rect(590, 143, 310, 269, t.stamp);
+  body += text('INVOICE', 618, 185, 19, t.ink, 'body', 2);
+  body += text('001', 815, 185, 19, t.muted);
+  for (let row = 0; row < 5; row++) body += line(618, 218 + row * 28, 872, 218 + row * 28, t.border);
+  body += display('GST', 937, 306, 57, t.ink);
+  body += circle(960, 368, 25, t.accent);
+  body += line(455, 280, 565, 280, t.ink, 2);
+  body += circle(437, 280, 9, t.ink);
+  body += text('REUSE', 405, 250, 18, t.muted, 'body', 2);
+  body += line(455, 290, 455, 352, t.border);
+  body += text('CLIENT / SERVICE / DOCUMENT', 468, 384, 15, t.muted, 'body', 1);
+  return body;
+}
+
+function brain(t) {
+  const nodes = [
+    [455, 186, 'NOTE'], [734, 154, 'VOICE'], [1010, 246, 'LINK'],
+    [873, 395, 'REVIEW'], [515, 381, 'PHOTO']
+  ];
+  let body = '';
+  for (const [x, y] of nodes) body += line(725, 273, x, y, t.border, 2);
+  for (const [x, y, label] of nodes) {
+    body += rect(x - 65, y - 26, 130, 52, t.stamp, 26);
+    body += text(label, x - 43, y + 6, 18, t.ink, 'body', 1);
+  }
+  body += circle(725, 273, 72, t.accent);
+  body += display('B /', 680, 292, 59, t.onAccent);
+  return body;
+}
+
+function television(t) {
+  let body = rect(402, 146, 655, 274, t.emphasis, 12);
+  body += rect(417, 161, 625, 244, t.subtle, 4);
+  body += text('V / HOME', 440, 196, 19, t.ink, 'body', 2);
+  const fills = [t.accent, t.emphasis, t.stamp, t.stamp, t.emphasis, t.stamp];
+  for (let n = 0; n < 6; n++) {
+    body += rect(440 + (n % 3) * 190, 217 + Math.floor(n / 3) * 77, 170, 59, fills[n], 7);
+    if (n === 0) body += circle(525, 246, 9, t.onAccent);
+  }
+  body += line(729, 420, 729, 445, t.ink, 2);
+  body += line(654, 445, 804, 445, t.ink, 2);
+  return body;
+}
+
+function chapter(t) {
+  let body = rect(400, 141, 655, 286, t.subtle);
+  for (let row = 0; row < 6; row++) {
+    body += text(['MEMBERS', 'MEETINGS', 'ATTENDANCE', 'DUES', 'TREASURY', 'CHAPTER'][row], 425, 181 + row * 42, 17, t.ink, 'body', 1);
+    for (let col = 0; col < 8; col++) {
+      const selected = row === 2 && col === 4;
+      body += circle(655 + col * 46, 175 + row * 42, 9, selected ? t.accent : ((row + col) % 3 ? t.emphasis : 'none'), selected ? 'none' : t.border);
+    }
+  }
+  return body;
+}
+
+function identity(t) {
+  let body = monogram(433, 158, 0.74, t.ink);
+  body += monogram(806, 218, 0.44, t.muted);
+  body += ruler(402, 413, 653, t, 19);
+  body += rect(1028, 155, 27, 27, t.accent);
+  body += text('ONE PRACTICE / MANY EXPRESSIONS', 402, 453, 17, t.text, 'body', 1.8);
+  return body;
+}
+
+const illustrations = [research, invoice, brain, television, chapter, identity];
+function cover(project, index, t) {
+  let body = text(`${project.number} / ${project.tag}`, 48, 55, 18, t.text, 'body', 1.5);
+  body += arrow(1128, 47, t);
+  body += line(48, 82, 1152, 82, t.border);
+  body += display(project.number, 40, 353, 187, t.emphasis, 310);
+  body += illustrations[index](t);
+  body += display(project.title, 44, 536, 74, t.ink, 1105);
+  body += text(project.headline, 48, 585, 29, t.text);
+  return svg(`${project.title}. ${project.headline}`, body, 1200, 630, t);
+}
+
+function activity(data, t) {
+  let body = display('A working practice.', 44, 77, 52, t.ink);
+  body += text(`UPDATED ${data.updated}`, 930, 70, 17, t.muted, 'body', 1);
+  body += line(48, 103, 1152, 103, t.border);
+  body += text('S', 48, 157, 16, t.muted) + text('M', 48, 185, 16, t.muted);
+  for (const [i, label] of ['T', 'W', 'T', 'F', 'S'].entries()) body += text(label, 48, 213 + i * 28, 16, t.muted);
+  // Sunday-first columns preserve the actual weekday when GitHub changes its date range.
+  const firstWeekday = new Date(`${data.days[0].date}T00:00:00Z`).getUTCDay();
+  for (const [i, day] of data.days.entries()) {
+    const offset = i + firstWeekday;
+    const fill = [t.subtle, t.emphasis, t.muted, t.ink, t.accent][day.level];
+    body += circle(98 + Math.floor(offset / 7) * 19.8, 151 + (offset % 7) * 28, 6, fill);
+  }
+  body += text(`${data.days[0].date} / ${data.days.at(-1).date}`, 48, 379, 18, t.text);
+  body += text(`${data.total.toLocaleString('en-US')} contributions on public profile`, 48, 425, 25, t.ink);
+  body += text(`${data.repos.length} public repositories, including this profile`, 635, 425, 22, t.text);
+  return svg('Public GitHub contribution calendar. Snapshot date and counts shown below.', body, 1200, 466, t);
+}
+
+for (const [name, theme] of Object.entries(themes)) {
+  write('hero', hero(theme), name);
+  for (const [index, project] of studio.projects.entries()) write(project.slug, cover(project, index, theme), name);
+  if (fs.existsSync(`${root}/content/activity.json`)) {
+    const data = JSON.parse(fs.readFileSync(`${root}/content/activity.json`));
+    write('activity', activity(data, theme), name);
+  }
+}

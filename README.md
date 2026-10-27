@@ -1,10 +1,10 @@
-<p align="center"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/hero.svg" width="100%" alt="Vineeth Nair — Design. Systems. Intelligence. Brand strategist, designer and creative technologist. Mumbai."></p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/hero-dark.svg?v=di-20261028"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/hero.svg?v=di-20261028"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/hero.svg?v=di-20261028" width="100%" alt="Vineeth Nair. Design. Systems. Intelligence. Brand strategy, design, consulting and software products."></picture>
 
-# Vineeth Nair / An independent, multidisciplinary practice
+# Vineeth Nair
 
 **Brand strategy. Design. Consulting. Software products.**
 
-I run **Design Innsaeit** in Mumbai. I turn complex ideas into identities, useful tools and connected systems—bringing a designer’s eye to how things look, work and fit into people’s lives.
+I run **Design Innsaeit** in Mumbai. I turn complex ideas into identities, useful tools and connected systems, bringing a designer’s eye to how things look, work and fit into people’s lives.
 
 [Selected work](#selected-work) &nbsp; / &nbsp; [Professional profiles](#three-ways-to-meet-me) &nbsp; / &nbsp; [Project cabinet](#the-project-cabinet) &nbsp; / &nbsp; [Contact](#lets-build-something-meaningful)
 
@@ -16,21 +16,24 @@ I run **Design Innsaeit** in Mumbai. I turn complex ideas into identities, usefu
 
 ## Selected work
 
-Six studies in connecting ideas with execution. Each opens a readable project narrative. Private source stays private.
+Six studies in connecting ideas with execution. Explore each project through its purpose, system and intended value.
 
-| [01 / Brand Intelligence OS](case-studies/brand-intelligence.md) | [02 / GST Invoice Studio](case-studies/gst-invoice.md) |
-| :--- | :--- |
-| [![Evidence before intuition. — RESEARCH / STRATEGY](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/brand-intelligence.svg)](case-studies/brand-intelligence.md) | [![Less repetition. Better paperwork. — PRODUCT / OPERATIONS](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/gst-invoice.svg)](case-studies/gst-invoice.md) |
-| A local-first research system that turns scattered brand signals into a traceable working library. | An India-focused workspace for invoices, purchase orders and reusable business records. |
+<a href="case-studies/brand-intelligence.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/brand-intelligence-dark.svg?v=di-20261028"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/brand-intelligence.svg?v=di-20261028"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/brand-intelligence.svg?v=di-20261028" width="100%" alt="Brand Intelligence OS. Evidence before intuition."></picture></a>
 
-| [03 / Personal Brain OS](case-studies/personal-brain.md) | [04 / V/HOME](case-studies/v-home.md) |
+A local-first research system that turns scattered brand signals into a traceable working library. [Read the study](case-studies/brand-intelligence.md)
+
+| [02 / GST Invoice Studio](case-studies/gst-invoice.md) | [03 / Personal Brain OS](case-studies/personal-brain.md) |
 | :--- | :--- |
-| [![Give scattered thoughts a home. — KNOWLEDGE / SYSTEMS](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/personal-brain.svg)](case-studies/personal-brain.md) | [![A calmer place to land. — INTERACTION / CONNECTED HOME](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/v-home.svg)](case-studies/v-home.md) |
-| A self-hosted cockpit connecting everyday capture with a Markdown knowledge base. | An ad-free LG webOS launcher designed around a shared living room. |
+| <a href="case-studies/gst-invoice.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/gst-invoice-dark.svg?v=di-20261028"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/gst-invoice.svg?v=di-20261028"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/gst-invoice.svg?v=di-20261028" width="100%" alt="GST Invoice Studio. Less repetition. Better paperwork."></picture></a> | <a href="case-studies/personal-brain.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/personal-brain-dark.svg?v=di-20261028"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/personal-brain.svg?v=di-20261028"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/personal-brain.svg?v=di-20261028" width="100%" alt="Personal Brain OS. Give scattered thoughts a home."></picture></a> |
+| An India-focused workspace for invoices, purchase orders and reusable business records. | A self-hosted cockpit connecting everyday capture with a Markdown knowledge base. |
+
+<a href="case-studies/v-home.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/v-home-dark.svg?v=di-20261028"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/v-home.svg?v=di-20261028"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/v-home.svg?v=di-20261028" width="100%" alt="V/HOME. A calmer place to land."></picture></a>
+
+An ad-free LG webOS launcher designed around a shared living room. [Read the study](case-studies/v-home.md)
 
 | [05 / Chapter Admin](case-studies/chapter-admin.md) | [06 / V / The studio identity](case-studies/identity.md) |
 | :--- | :--- |
-| [![Make chapter work visible. — SERVICE / OPERATIONS](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/chapter-admin.svg)](case-studies/chapter-admin.md) | [![One practice. Many ways to build. — BRAND / VISUAL SYSTEM](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/identity.svg)](case-studies/identity.md) |
+| <a href="case-studies/chapter-admin.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/chapter-admin-dark.svg?v=di-20261028"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/chapter-admin.svg?v=di-20261028"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/chapter-admin.svg?v=di-20261028" width="100%" alt="Chapter Admin. Make chapter work visible."></picture></a> | <a href="case-studies/identity.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/identity-dark.svg?v=di-20261028"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/identity.svg?v=di-20261028"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/identity.svg?v=di-20261028" width="100%" alt="V / The studio identity. One practice. Many ways to build."></picture></a> |
 | A chapter administration workspace for membership, meetings, attendance and finances. | A personal identity joining brand strategy, design, consulting and software products. |
 
 ## Three ways to meet me
@@ -59,7 +62,7 @@ Currently exploring **personal intelligence systems**, **remote-first interfaces
 
 ## A working practice
 
-![Public profile activity, refreshed from GitHub. Counts describe public-profile data, not professional skill.](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/activity.svg)
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/activity-dark.svg?v=di-20261028"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/activity.svg?v=di-20261028"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/activity.svg?v=di-20261028" width="100%" alt="Public GitHub contribution calendar. Public-profile counts and snapshot date are shown below."></picture>
 
 <sub>Automatically refreshed weekly. Public repository metadata only. Contribution counts come from the public profile and can include anonymized private contributions when enabled. Project selection and stories remain editorially curated.</sub>
 

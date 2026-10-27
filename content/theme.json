@@ -1,0 +1,12 @@
+{
+  "light": {
+    "bg": "#EDEAE2", "subtle": "#E4E0D6", "emphasis": "#D6D1C5", "stamp": "#FBF9F3",
+    "ink": "#161310", "text": "#524E47", "muted": "#6E6A61", "border": "#D2CCBE",
+    "accent": "#FF006C", "onAccent": "#161310"
+  },
+  "dark": {
+    "bg": "#1F006E", "subtle": "#1A0552", "emphasis": "#3A14BE", "stamp": "#280A86",
+    "ink": "#FFFFFF", "text": "#E2D8F5", "muted": "#9B8FC9", "border": "#523399",
+    "accent": "#00FFCF", "onAccent": "#11003B"
+  }
+}

@@ -1,37 +1,64 @@
-# V / Studio design system
+# Design Innsaeit / Public profile design system
 
-## Direction
+## Reference and scene
 
-A multidisciplinary independent practice: brand strategy, design, consulting and software products. Editorial typography gives structure; violet and mint retain the creative lab character. The public profile is a portfolio with evidence, not a wall of badges.
+This profile applies the Design Innsaeit design system supplied by Vineeth on 28 October 2026. Clients and recruiters browse a GitHub profile in their preferred browser appearance; the artwork carries the full identity, while native text follows GitHub's theme and remains selectable.
 
-## Visual system
+The visual voice is typographic, tactile and systematic. Light mode references bone paper and Braun instrument details. Dark mode uses the Design Innsaeit electric identity. The supplied design system takes precedence over previous Archivo, violet and mint artwork.
 
-- Archivo, weights 400, 600 and 800; licensed under SIL Open Font License, included in assets/studio/Archivo-OFL.txt.
-- Ivory #F3F0E7, ink #202120, violet #4826C6, mint #C1F579.
-- An original V/slash monogram, numbered project studies, generous spacing and original vector illustrations.
-- Self-contained SVGs use outlined lettering for consistent rendering. All important information is repeated in native Markdown; image alternatives describe their purpose.
-- Static artwork avoids distracting motion. No external widgets, tracking pixels or font requests.
+## Fonts
 
-## Content and interaction
+- Display: Bricolage Grotesque, 800, optical size 96, width 100. Large headings use tight tracking.
+- Supporting text: Hanken Grotesk, 400, 600 and 700. Native GitHub Markdown retains GitHub's font because profile CSS is restricted.
+- The licensed static TrueType instances and SIL Open Font Licenses are committed in assets/studio/fonts/. They were instantiated from the official Google Fonts variable files.
+- SVG lettering is outlined for consistent rendering without external font requests. Main information also appears in native Markdown and meaningful image alternatives.
+- PDFs embed the fonts and preserve selectable, searchable text.
 
-The hero positions the practice. Six linked case studies explain problems, systems and intended benefits. Three PDF and Markdown professional profiles offer different editorial lenses. Native disclosures preserve six-line summaries for all 45 original projects.
+## Exact tokens
 
-GitHub supports navigation, disclosure sections and downloads here. A separate interactive website is outside this version. No JavaScript is embedded in the profile.
+content/theme.json is the rendering source of truth.
 
-## Evidence and privacy
+| Role | Light | Dark |
+| :--- | :--- | :--- |
+| Canvas | #EDEAE2 | #1F006E |
+| Subtle surface | #E4E0D6 | #1A0552 |
+| Emphasis surface | #D6D1C5 | #3A14BE |
+| Stamp surface | #FBF9F3 | #280A86 |
+| Heading | #161310 | #FFFFFF |
+| Body | #524E47 | #E2D8F5 |
+| Secondary text | #6E6A61 | #9B8FC9 |
+| Border | #D2CCBE | #523399 |
+| Accent | #FF006C | #00FFCF |
 
-Stories are based on repository documentation, not new runtime tests. No employment dates, degrees, client outcomes or device integrations are invented. Private repository code and client data remain private. The V/HOME browser-simulation screenshot is from public source commit b29c08dc71725f60f10095e12ca1d9d46120e721; its source path is docs/screenshots/after-launcher-curated.png.
+One accent per mode. Small labels use ink or secondary text; accent type is reserved for large display lettering. Illustrations use tonal surfaces and a single focal accent. Arrow icons use a high-contrast ink stroke on the accent.
 
-## Maintenance
+## Composition
 
-Edit content/studio.json and case-studies/*.md together when updating stories. content/catalogue.json preserves the original project summaries. README contains their public presentation. PDFs and matching Markdown live in resume/ and should be reviewed together when biography changes.
+A flush-left Bricolage masthead introduces the practice. A fine systems ruler, numbered disciplines and a V/slash monogram connect it with the supplied visual language. The project gallery alternates full-width lead studies with paired studies. Original diagrams communicate each system; the actual V/HOME browser preview is labeled separately.
 
-Run `node scripts/render.mjs` to regenerate artwork from the editorial configuration and committed glyph outlines. New characters require glyphs to be added from Archivo under its included license. Existing old masthead is retained as historical artwork, but not displayed.
+Circular arrows indicate linked studies. Oversized study numbers create hierarchy without adding unrelated colors. A Sunday-first dot-grid activity calendar uses single-letter weekday labels and real public data. Static assets preserve clarity without motion.
 
-Run `node --test scripts/profile.test.mjs` before changing data ingestion. Run `node scripts/refresh.mjs` to refresh public activity and graphics. Node 20 or newer is required; no npm packages or personal token are needed.
+Each graphic has light and dark variants. README and case studies select them through HTML picture/source elements and prefers-color-scheme. This follows browser appearance; an explicitly selected GitHub theme may differ from the operating system. Both variants are self-contained and legible. PDFs use the light palette for printing.
 
-The weekly GitHub Action reads anonymous public GitHub endpoints. It never fetches private repositories or private contribution details. Public-profile counts may include anonymized private contributions if the account exposes them. A failed request or incomplete calendar fails the run before replacing the previous snapshot. The contribution grid follows date order; counts describe activity, not design or engineering skill.
+## Editorial content and privacy
 
-The workflow uses a commit-pinned checkout action and a repository-scoped GITHUB_TOKEN only for committing generated assets. It runs Mondays at 06:17 UTC or manually, and commits only content/activity.json and assets/studio/activity.svg. GitHub schedules can be delayed or disabled after repository inactivity; the visible update date makes stale data apparent.
+Six case studies explain problems, systems and intended value. Three PDF and Markdown professional profiles offer different lenses. All 45 original six-line project summaries remain in native disclosure sections.
 
-Professional background and LinkedIn contact are maintained in content/professional.json. On 28 October 2026, the exact supplied profile was available through public search indexing; direct LinkedIn access was blocked. Education institution, listed years and certification were visible. Missing degree title, job roles and employment dates are omitted. Activity items marked as liked are not treated as the account owner's achievements.
+Stories describe repository documentation, not new runtime tests. No career dates, degrees, client outcomes or device integrations are invented. Private source and client records remain private. The V/HOME browser screenshot comes from public commit b29c08dc71725f60f10095e12ca1d9d46120e721 at docs/screenshots/after-launcher-curated.png.
+
+Professional background and LinkedIn contact live in content/professional.json. The exact supplied LinkedIn profile was accessible through public search indexing on 28 October 2026; direct access was blocked. Only visible education years and certification were used. Activity marked as liked was not treated as the owner's achievement.
+
+## Regeneration
+
+- Editorial stories: content/studio.json, case-studies/*.md and README.md.
+- Original project collection: content/catalogue.json and README.md.
+- PDF lenses: content/resume-views.json. Matching accessible Markdown lives in resume/.
+- Fonts to SVG outlines: `python scripts/build-glyphs.py` with fontTools installed.
+- SVG creatives: `node scripts/render.mjs`, Node 20 or later, no npm packages.
+- PDF profiles: `python scripts/build-resumes.py` with ReportLab installed.
+- Data tests: `node --test scripts/profile.test.mjs`.
+- Public snapshot: `node scripts/refresh.mjs`.
+
+The weekly Action fetches anonymous public repository metadata and the public contribution calendar. Counts may include anonymized private activity exposed by the account. Incomplete responses fail before replacing the valid snapshot. A pinned checkout action and repository-scoped GITHUB_TOKEN commit only content/activity.json, assets/studio/activity.svg and assets/studio/activity-dark.svg. It runs Mondays at 06:17 UTC or manually. The visible update date makes delayed or stale runs apparent.
+
+Old masthead files and Archivo license remain as historical assets; they are not used in the current profile.

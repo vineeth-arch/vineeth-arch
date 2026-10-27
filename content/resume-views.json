@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "brand-design",
+    "lens": "Brand strategy & design",
+    "headline": "Clarity, made visible.",
+    "summary": "I connect brand thinking with visual and product systems: from research and positioning to identity, packaging and useful interfaces.",
+    "projects": [
+      0,
+      5,
+      3
+    ],
+    "skills": [
+      "Brand research and positioning",
+      "Identity and packaging design",
+      "Typography and visual systems",
+      "Interface and information design"
+    ]
+  },
+  {
+    "slug": "creative-technology",
+    "lens": "Creative technology & products",
+    "headline": "Useful ideas, working systems.",
+    "summary": "I bring design judgment to software products, connecting interfaces, automation and data workflows around practical everyday needs.",
+    "projects": [
+      2,
+      1,
+      3
+    ],
+    "skills": [
+      "Product and interaction design",
+      "TypeScript, JavaScript and Python",
+      "React, Next.js and FastAPI",
+      "Markdown, SQL and automation"
+    ]
+  },
+  {
+    "slug": "integrated-profile",
+    "lens": "Multidisciplinary practice",
+    "headline": "Design. Systems. Intelligence.",
+    "summary": "I run Design Innsaeit in Mumbai, working across brand strategy, design, consulting and software products. My practice turns complex ideas into identities and tools people can use.",
+    "projects": [
+      0,
+      1,
+      2
+    ],
+    "skills": [
+      "Brand strategy and design",
+      "Workflow consulting",
+      "Software product development",
+      "Research and knowledge systems"
+    ]
+  }
+]

@@ -12,6 +12,10 @@ Communicate brand strategy, design, consulting and software-building capabilitie
 
 Custom GitHub profile README, original SVG identity and six project covers, six case studies, three PDF and Markdown professional profiles, all 45 six-line project summaries, public activity infographic and weekly update workflow.
 
+## Visual identity
+
+Use the supplied Design Innsaeit system: Bricolage Grotesque display, Hanken Grotesk body, bone/pink light mode and indigo/teal dark mode. Preserve tonal blocking, one accent per mode, flush-left type, circular arrows and systems rulers.
+
 ## Constraints
 
 GitHub-native Markdown and images; no embedded scripts or arbitrary CSS. Private source remains private. lgtv and v-home stay public; keri-crafts-site and atarva-website remain public temporarily to preserve their sites. The profile repository must also stay public.

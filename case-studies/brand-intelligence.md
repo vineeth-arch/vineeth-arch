@@ -1,6 +1,6 @@
 [← Back to the studio](../README.md#selected-work)
 
-![Brand Intelligence OS — Evidence before intuition.](../assets/studio/brand-intelligence.svg)
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/brand-intelligence-dark.svg?v=di-20261028"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/brand-intelligence.svg?v=di-20261028"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/brand-intelligence.svg?v=di-20261028" width="100%" alt="Brand Intelligence OS project study"></picture>
 
 # Brand Intelligence OS
 

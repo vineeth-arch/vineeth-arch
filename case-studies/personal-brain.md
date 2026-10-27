@@ -1,6 +1,6 @@
 [← Back to the studio](../README.md#selected-work)
 
-![Personal Brain OS — Give scattered thoughts a home.](../assets/studio/personal-brain.svg)
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/personal-brain-dark.svg?v=di-20261028"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/personal-brain.svg?v=di-20261028"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/personal-brain.svg?v=di-20261028" width="100%" alt="Personal Brain OS project study"></picture>
 
 # Personal Brain OS
 
