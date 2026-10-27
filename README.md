@@ -524,4 +524,3 @@ Supports household membership and separate admin, editor and member roles.<br>
 Includes authentication and configured image-upload infrastructure.<br>
 Targets less fragmented meal coordination across people in the same household.<br>
 Built with React, Vite, TypeScript and Supabase; setup requires household provisioning.
-
