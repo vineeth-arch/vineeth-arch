@@ -10,9 +10,13 @@ I run **Design Innsaeit** in Mumbai. I turn complex ideas into identities, usefu
 
 ## One practice. Four connected disciplines.
 
-| Strategy | Design | Consulting | Products |
-| :--- | :--- | :--- | :--- |
-| Brand research, positioning and clearer questions. | Identity, packaging and visual systems. | Turning complex workflows into practical decisions. | Interfaces, automation and software that support everyday work. |
+**Strategy** · Brand research, positioning and clearer questions.
+
+**Design** · Identity, packaging and visual systems.
+
+**Consulting** · Turning complex workflows into practical decisions.
+
+**Products** · Interfaces, automation and software that support everyday work.
 
 ## Selected work
 
@@ -40,10 +44,14 @@ An ad-free LG webOS launcher designed around a shared living room. [Read the stu
 
 Choose the lens that fits your project. Each one-page professional profile is grounded in work shown here.
 
-| Brand strategy & design | Creative technology & products | Integrated practice |
-| :--- | :--- | :--- |
-| Positioning, identity and translating complexity into clear visual systems. | Software products, knowledge workflows and thoughtful automation. | The complete design, business and technology perspective. |
-| [Download PDF](resume/brand-design.pdf) · [Read online](resume/brand-design.md) | [Download PDF](resume/creative-technology.pdf) · [Read online](resume/creative-technology.md) | [Download PDF](resume/integrated-profile.pdf) · [Read online](resume/integrated-profile.md) |
+**01 / Brand strategy & design**  
+Positioning, identity and clear visual systems. [Download PDF](resume/brand-design.pdf) · [Read online](resume/brand-design.md)
+
+**02 / Creative technology & products**  
+Software products, knowledge workflows and thoughtful automation. [Download PDF](resume/creative-technology.pdf) · [Read online](resume/creative-technology.md)
+
+**03 / Integrated practice**  
+The complete design, business and technology perspective. [Download PDF](resume/integrated-profile.pdf) · [Read online](resume/integrated-profile.md)
 
 ## Background
 
