@@ -1,0 +1,91 @@
+{
+  "name": "Vineeth Nair",
+  "identity": "Design. Systems. Intelligence.",
+  "email": "vineeth@designinnsaeit.com",
+  "projects": [
+    {
+      "slug": "brand-intelligence",
+      "title": "Brand Intelligence OS",
+      "number": "01",
+      "tag": "RESEARCH / STRATEGY",
+      "headline": "Evidence before intuition.",
+      "repo": "brand-intelligence-os",
+      "intro": "A local-first research system that turns scattered brand signals into a traceable working library.",
+      "problem": "Brand research gets fragmented across websites, social channels and advertising libraries. The challenge is preserving what was observed and where it came from.",
+      "approach": "The pipeline collects source material and retains raw Markdown, HTML, screenshots and failure records. Structured reports can then be developed from evidence rather than memory.",
+      "stack": "Python / research pipelines / evidence design",
+      "value": "Clearer evidence helps strategists compare brands, revisit sources and develop better-grounded questions.",
+      "status": "A documented research system. Blocked or unavailable sources remain explicit gaps; this portfolio does not claim exhaustive coverage."
+    },
+    {
+      "slug": "gst-invoice",
+      "title": "GST Invoice Studio",
+      "number": "02",
+      "tag": "PRODUCT / OPERATIONS",
+      "headline": "Less repetition. Better paperwork.",
+      "repo": "di-GSTIN-Generator",
+      "intro": "An India-focused workspace for invoices, purchase orders and reusable business records.",
+      "problem": "Small studios repeat the same client and service details across business documents, creating avoidable friction and inconsistency.",
+      "approach": "Reusable records feed document workflows, GST splits and A4 PDF output. Browser-local storage supports local work, with optional Supabase authentication and sync.",
+      "stack": "Next.js / TypeScript / document systems",
+      "value": "Consultants and studios can prepare consistent paperwork with less repeated entry and clearer document structure.",
+      "status": "Repository-documented capabilities; tax settings and documents need business-specific review. No compliance certification is implied."
+    },
+    {
+      "slug": "personal-brain",
+      "title": "Personal Brain OS",
+      "number": "03",
+      "tag": "KNOWLEDGE / SYSTEMS",
+      "headline": "Give scattered thoughts a home.",
+      "repo": "personal-brain-os",
+      "intro": "A self-hosted cockpit connecting everyday capture with a Markdown knowledge base.",
+      "problem": "Notes, links, voice and photos often live in separate places. Capturing them is easy; making them useful later is harder.",
+      "approach": "Capture pipelines turn incoming material into structured Markdown for an Obsidian vault. A cockpit brings together daily work and human-reviewed relationship proposals.",
+      "stack": "Python / FastAPI / React / SQLite",
+      "value": "A consistent capture-to-knowledge workflow reduces fragmentation and makes personal context easier to revisit.",
+      "status": "A self-hosted personal system. Relationship changes remain human-reviewed; private notes and personal records are not published here."
+    },
+    {
+      "slug": "v-home",
+      "title": "V/HOME",
+      "number": "04",
+      "tag": "INTERACTION / CONNECTED HOME",
+      "headline": "A calmer place to land.",
+      "repo": "v-home",
+      "intro": "An ad-free LG webOS launcher designed around a shared living room.",
+      "problem": "A television is a shared, distant screen controlled with a remote. App access and household information need a different interaction rhythm from a desktop.",
+      "approach": "Favorites, folders, HDMI inputs, wallpaper and household information share one launcher. V/TV Sleep provides the timer; a phone companion extends control.",
+      "stack": "webOS / JavaScript / Python / remote-first UI",
+      "value": "Households can reach familiar apps and shared information from one intentional home screen.",
+      "status": "Developer Mode required. Optional Home redirection is best-effort; model-specific behavior and setup limits are documented in the public repository."
+    },
+    {
+      "slug": "chapter-admin",
+      "title": "Chapter Admin",
+      "number": "05",
+      "tag": "SERVICE / OPERATIONS",
+      "headline": "Make chapter work visible.",
+      "repo": "Chapter-members",
+      "intro": "A chapter administration workspace for membership, meetings, attendance and finances.",
+      "problem": "Chapter operations span people, recurring meetings and money. Separate records make it harder to maintain a shared operational view.",
+      "approach": "Role-based access and isolated chapter workspaces organize membership, meeting attendance, dues and treasury records in one application.",
+      "stack": "Next.js / TypeScript / PostgreSQL / Prisma",
+      "value": "Administrators can coordinate recurring chapter work with clearer records and explicit access boundaries.",
+      "status": "Software workflow documented in the repository. Hardware attendance-device integration and measured deployment outcomes are not claimed."
+    },
+    {
+      "slug": "identity",
+      "title": "V / The studio identity",
+      "number": "06",
+      "tag": "BRAND / VISUAL SYSTEM",
+      "headline": "One practice. Many ways to build.",
+      "repo": null,
+      "intro": "A personal identity joining brand strategy, design, consulting and software products.",
+      "problem": "An interdisciplinary practice can look fragmented when design work and technical work are presented as unrelated identities.",
+      "approach": "One typographic system, a V/slash monogram and an ivory, ink, violet and mint palette connect portfolio stories, professional profiles and generated activity graphics.",
+      "stack": "Brand architecture / art direction / SVG / editorial systems",
+      "value": "Visitors can understand the breadth of the practice while following a consistent visual and narrative structure.",
+      "status": "This profile is the live identity application. Graphics are original vector studies; the V/HOME preview is labeled separately as an actual browser simulation."
+    }
+  ]
+}

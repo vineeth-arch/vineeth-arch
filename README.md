@@ -1,67 +1,60 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/refs/heads/feat/recruiter-profile/assets/creative-lab-banner.png" width="100%" alt="Vineeth Nair. Design. Build. Stay curious. A playful violet poster with mint, yellow, orange and blue cut-paper forms.">
-</p>
+<p align="center"><img src="https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/hero.svg" width="100%" alt="Vineeth Nair — Design. Systems. Intelligence. Brand strategist, designer and creative technologist. Mumbai."></p>
 
-# Hi, I'm Vineeth.
+# Vineeth Nair / An independent, multidisciplinary practice
 
-**Brand & packaging designer. Builder of useful things. Based in Mumbai.**
+**Brand strategy. Design. Consulting. Software products.**
 
-I run **Design Innsaeit** and follow good questions into unexpected projects: a calmer TV home screen, a better client handoff, a tiny tool that removes repetitive work. This is my working lab, where brand thinking becomes software people can use.
+I run **Design Innsaeit** in Mumbai. I turn complex ideas into identities, useful tools and connected systems—bringing a designer’s eye to how things look, work and fit into people’s lives.
 
-[Selected work](#selected-work) &nbsp; / &nbsp; [Inside the lab](#inside-the-lab) &nbsp; / &nbsp; [All 45 projects](#the-project-cabinet) &nbsp; / &nbsp; [Say hello](#say-hello)
+[Selected work](#selected-work) &nbsp; / &nbsp; [Professional profiles](#three-ways-to-meet-me) &nbsp; / &nbsp; [Project cabinet](#the-project-cabinet) &nbsp; / &nbsp; [Contact](#lets-build-something-meaningful)
+
+## One practice. Four connected disciplines.
+
+| Strategy | Design | Consulting | Products |
+| :--- | :--- | :--- | :--- |
+| Brand research, positioning and clearer questions. | Identity, packaging and visual systems. | Turning complex workflows into practical decisions. | Interfaces, automation and software that support everyday work. |
 
 ## Selected work
 
-### 01 / A better place to land
+Six studies in connecting ideas with execution. Each opens a readable project narrative. Private source stays private.
 
-**[V/HOME](https://github.com/vineeth-arch/v-home) + [V/TV Sleep](https://github.com/vineeth-arch/lgtv)** · Public source
+| [01 / Brand Intelligence OS](case-studies/brand-intelligence.md) | [02 / GST Invoice Studio](case-studies/gst-invoice.md) |
+| :--- | :--- |
+| [![Evidence before intuition. — RESEARCH / STRATEGY](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/brand-intelligence.svg)](case-studies/brand-intelligence.md) | [![Less repetition. Better paperwork. — PRODUCT / OPERATIONS](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/gst-invoice.svg)](case-studies/gst-invoice.md) |
+| A local-first research system that turns scattered brand signals into a traceable working library. | An India-focused workspace for invoices, purchase orders and reusable business records. |
 
-An ad-free launcher for an LG TV, paired with a sleep timer that lives on the television itself. Favorite apps, shared household notes and simple controls bring a little more intention to the living room.
+| [03 / Personal Brain OS](case-studies/personal-brain.md) | [04 / V/HOME](case-studies/v-home.md) |
+| :--- | :--- |
+| [![Give scattered thoughts a home. — KNOWLEDGE / SYSTEMS](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/personal-brain.svg)](case-studies/personal-brain.md) | [![A calmer place to land. — INTERACTION / CONNECTED HOME](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/v-home.svg)](case-studies/v-home.md) |
+| A self-hosted cockpit connecting everyday capture with a Markdown knowledge base. | An ad-free LG webOS launcher designed around a shared living room. |
 
-[![V/HOME browser simulation showing a remote-friendly favorites row, app tiles, HDMI inputs and household notes.](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/refs/heads/feat/recruiter-profile/assets/v-home-preview.png)](https://github.com/vineeth-arch/v-home)
+| [05 / Chapter Admin](case-studies/chapter-admin.md) | [06 / V / The studio identity](case-studies/identity.md) |
+| :--- | :--- |
+| [![Make chapter work visible. — SERVICE / OPERATIONS](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/chapter-admin.svg)](case-studies/chapter-admin.md) | [![One practice. Many ways to build. — BRAND / VISUAL SYSTEM](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/identity.svg)](case-studies/identity.md) |
+| A chapter administration workspace for membership, meetings, attendance and finances. | A personal identity joining brand strategy, design, consulting and software products. |
 
-<sub>Actual project preview in browser simulation, not a photograph of the TV. Developer Mode required; model-specific limitations are documented in each repository.</sub>
+## Three ways to meet me
 
-**Explore:** [Launcher & setup](https://github.com/vineeth-arch/v-home#readme) · [Sleep timer & setup](https://github.com/vineeth-arch/lgtv#readme)
+Choose the lens that fits your project. Each one-page professional profile is grounded in work shown here.
 
-### 02 / Less chasing. Better briefs.
+| Brand strategy & design | Creative technology & products | Integrated practice |
+| :--- | :--- | :--- |
+| Positioning, identity and translating complexity into clear visual systems. | Software products, knowledge workflows and thoughtful automation. | The complete design, business and technology perspective. |
+| [Download PDF](resume/brand-design.pdf) · [Read online](resume/brand-design.md) | [Download PDF](resume/creative-technology.pdf) · [Read online](resume/creative-technology.md) | [Download PDF](resume/integrated-profile.pdf) · [Read online](resume/integrated-profile.md) |
 
-**FormEngine** · Client collaboration · Private source
+## Tools follow the problem
 
-Client answers rarely arrive in one neat document. FormEngine brings written responses, voice notes and uploads into a branded questionnaire workspace, with saved progress and a review workflow for turning inputs into a creative brief.
+**Design:** brand research, visual identity, packaging, typography, interface design.  
+**Build:** TypeScript, JavaScript, Python, React and Next.js across the project collection.  
+**Systems:** Markdown, SQLite, PostgreSQL, Supabase and self-hosted workflows where the project calls for them.
 
-<sub>TypeScript · Client experience · Workflow design</sub>
+Currently exploring **personal intelligence systems**, **remote-first interfaces**, **AI-assisted research** and **connected business workflows**.
 
-### 03 / Find the type that feels right
+## A working practice
 
-**Brand Font Lab** · Design utility · Private source
+![Public profile activity, refreshed from GitHub. Counts describe public-profile data, not professional skill.](https://raw.githubusercontent.com/vineeth-arch/vineeth-arch/feat/recruiter-profile/assets/studio/activity.svg)
 
-Put the actual brand name in the fonts you're considering. Compare wordmarks, adjust spacing and export a proof sheet, keeping the designer's eye at the center of the decision.
-
-<sub>React · TypeScript · Font tooling · Browser-local storage</sub>
-
-### 04 / Paperwork with fewer rough edges
-
-**GST Invoice Studio** · Small-business tooling · Private source
-
-An India-focused workspace for invoices and purchase orders. Reusable client data, GST tax splits and PDF output help a small studio move from repeated typing to a more consistent document workflow.
-
-<sub>Next.js · TypeScript · Document systems · Local-first storage</sub>
-
-## Inside the lab
-
-**A few questions that keep me making:**
-
-- Can a small tool remove an everyday irritation? That's how **Font Drop** installs incoming font archives.
-- Can a visual system have a repeatable recipe? **Sugoonj Cymatics Lab** makes graphic marks from numerical wave models.
-- Can software help us remember people more thoughtfully? **Handshake** keeps context and commitments, with a human approving facts and pressing send.
-- Can a greeting feel handmade on a screen? **Digibouquet** lets someone build and share a personal bouquet.
-
-**My approach:** understand the routine, shape the experience, build a focused tool, and make its limits visible.
-
-**Things I work with**<br>
-Brand strategy & identity · Packaging · Interface design · Creative tools<br>
-TypeScript · React · Next.js · Python · Supabase · LG webOS
+<sub>Automatically refreshed weekly. Public repository metadata only. Contribution counts come from the public profile and can include anonymized private contributions when enabled. Project selection and stories remain editorially curated.</sub>
 
 ## The project cabinet
 
@@ -611,10 +604,14 @@ Built with React, Vite, TypeScript and Supabase; setup requires household provis
 
 <sub>Project notes reflect repository documentation reviewed on 27 October 2026. Feature maturity varies; the notes distinguish planned, prototype and implemented work. Keri Crafts and Avarta website source remain public temporarily for hosting continuity.</sub>
 
-## Say hello
+## Let's build something meaningful
 
-Interested in thoughtful design, practical software or the interesting space between them?
+Have a brand to clarify, a workflow to untangle or a useful product to build?
 
-**[Start a conversation](mailto:vineeth@designinnsaeit.com)** · [Browse public repositories](https://github.com/vineeth-arch?tab=repositories)
+**[vineeth@designinnsaeit.com](mailto:vineeth@designinnsaeit.com)**
 
-<sub>Made with curiosity in Mumbai. Always room for one more good question.</sub>
+Mumbai, India · Design Innsaeit · Open a conversation with the problem you are working on.
+
+---
+
+<sub>V / Design. Systems. Intelligence. · Original identity and vector artwork · [How this profile works](DESIGN.md)</sub>

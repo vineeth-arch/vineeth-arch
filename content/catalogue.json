@@ -1,0 +1,227 @@
+{
+  "lgtv": [
+    "V/TV Sleep",
+    "TV and home",
+    "A sleep timer that runs directly on an LG webOS television.\nStores the timer on the TV instead of keeping a phone or computer awake.\nOffers preset durations, custom timers and cancellation from the TV interface.\nIncludes a Mac command-line client and a shared Swift control package.\nHelps viewers end late-night watching without an always-on companion server.\nTested on one LG model; Developer Mode is required and the iOS app is planned."
+  ],
+  "v-home": [
+    "V/HOME",
+    "TV and home",
+    "An ad-free LG webOS launcher with a shared household dashboard.\nOrganizes favorite apps, folders, HDMI inputs and wallpapers around remote navigation.\nAdds household notes, plans, photos and a phone companion.\nIntegrates V/TV Sleep rather than creating a second shutdown scheduler.\nHelps households reach their apps and shared information from one screen.\nRequires Developer Mode; its optional Mac helper redirects LG Home on a best-effort basis."
+  ],
+  "di-GSTIN-Generator": [
+    "GST Invoice Studio",
+    "Business operations",
+    "An invoicing and purchase-order workspace for Indian small businesses.\nReuses company, client and service records to reduce repeated data entry.\nSupports GST tax splits, several document types and A4 PDF output.\nCombines browser-local storage with optional Supabase authentication and sync.\nHelps consultants and studios prepare consistent business documents with less manual work.\nBuilt with Next.js and TypeScript; tax features require business-specific review."
+  ],
+  "di-form-engine": [
+    "FormEngine",
+    "Business operations",
+    "A branded questionnaire portal for agency and client collaboration.\nBrings written answers, uploads and voice responses into one project workspace.\nSupports saved progress so clients can contribute across several sessions.\nIts workflow build adds answer-level review, follow-ups and brief sign-off.\nHelps studios turn scattered client inputs into clearer creative briefs.\nBuilt with TypeScript; README distinguishes deployed features from pending workflow releases."
+  ],
+  "di-portal": [
+    "DI Portal",
+    "Business operations",
+    "An administration portal for client-facing digital services.\nManages digital business cards, printed QR destinations and flipbook service records.\nTracks which services a client has, together with fees and renewals.\nLets printed codes point to updated destinations without reprinting.\nHelps a small studio operate recurring digital services from one place.\nVisitors use public links; message handoffs leave the actual send action to a person."
+  ],
+  "Innsaeit-client-dashboard": [
+    "Innsaeit Client Dashboard",
+    "Business operations",
+    "A shared artwork pipeline tracker for a design studio and its clients.\nOrganizes production progress through a configurable staged workflow.\nSeparates client workspaces through tenant-aware data access.\nCombines a React interface, Supabase data and Cloudflare R2 file storage.\nHelps teams find project status and supporting artwork without scattered updates.\nDesigned so another client can be added through configuration rather than another build."
+  ],
+  "Chapter-members": [
+    "Chapter Admin",
+    "Business operations",
+    "An administration workspace for business-networking chapters.\nTracks members, meetings, attendance, visitors and monthly dues.\nRecords meeting expenses and a running chapter treasury balance.\nIncludes role-based access, chapter separation and Excel import/export.\nHelps volunteer leadership teams keep operational and financial records together.\nBuilt with Next.js, TypeScript, PostgreSQL and Prisma."
+  ],
+  "hitechAC-Invoice-studio": [
+    "Hi-Tech Aircon Invoice Studio",
+    "Business operations",
+    "An HVAC business instance of the GST Invoice Studio platform.\nStarts from a shared invoicing and purchase-order baseline.\nProvides a configuration boundary for industry documents, branding and numbering.\nRetains GST-oriented billing rather than starting a separate accounting system.\nTargets less repetitive paperwork for an air-conditioning service business.\nRepository docs separate inherited platform features from the ongoing HVAC instance build."
+  ],
+  "invoice-studio-Verax": [
+    "Invoice Studio \u2014 Verax",
+    "Business operations",
+    "A separate repository using the GST Invoice Studio application baseline.\nSupports invoices, purchase orders, saved clients and service catalogues.\nIncludes GST calculations, document previews and downloadable PDF output.\nUses local browser storage with optional Supabase cloud synchronization.\nHelps small service businesses prepare repeatable documents without a full ERP.\nBuilt with Next.js and TypeScript; independent Verax customization is not established by its README."
+  ],
+  "di-flipbook": [
+    "Innsaeit Flipbooks",
+    "Business operations",
+    "A publishing tool that turns PDFs and images into page-turning web links.\nProcesses uploaded pages in the admin browser before storing optimized images.\nServes branded viewers with publication status and expiry controls.\nSupports client domains through a shared Next.js application.\nHelps studios distribute brochures and catalogues as easy-to-open digital editions.\nBuilt with TypeScript, Supabase and react-pageflip."
+  ],
+  "di-outreach-cockpit": [
+    "DI Outreach Cockpit",
+    "Relationships and career",
+    "A single-user outreach CRM for a small creative studio.\nTracks prospects from initial research through conversations and booked calls.\nKeeps contact details, research signals and activity history beside each lead.\nSchedules follow-up tasks and drafts messages using configured language models.\nHelps an independent studio keep warm opportunities from disappearing into notes.\nBuilt around a focused Supabase and Vercel deployment."
+  ],
+  "Handshake": [
+    "Relationship OS",
+    "Relationships and career",
+    "A relationship-memory system for people who meet and maintain many contacts.\nImports conversations and proposes facts, promises and follow-up tasks with citations.\nKeeps proposed interpretations separate from facts approved by the user.\nDrafts replies and opens message links while leaving sending to a person.\nHelps users remember context and meet commitments across their network.\nIncludes contact capture, review queues and integrations with personal knowledge tools."
+  ],
+  "handshake-os": [
+    "Handshake OS",
+    "Relationships and career",
+    "A next-generation relationship workspace built on the open-source Twenty CRM.\nPackages a private relationship application with self-hosted infrastructure.\nPorts relationship logic and tests from the earlier Handshake system.\nCombines PostgreSQL, Redis and optional messaging and model services.\nTargets more maintainable personal contact memory and follow-up workflows.\nAn ongoing rebase; the earlier system remains separate until an explicit cut-over."
+  ],
+  "career-ops-system": [
+    "Career Ops System",
+    "Relationships and career",
+    "A shared console with separate business-development and job-search workflows.\nCollects opportunities and organizes them for review rather than mixing both pipelines.\nIncludes deduplication, scoring, drafting and scheduled processing stages.\nUses Next.js, Supabase PostgreSQL and configurable AI assistance.\nHelps users review relevant opportunities and keep next actions in view.\nShared infrastructure does not mean shared outreach or automatic permission to contact people."
+  ],
+  "Career-console": [
+    "Career Console",
+    "Relationships and career",
+    "An empty repository reserved under the Career Console name.\nNo application code or default README was present at this review.\nIt currently provides no user-facing career workflow.\nIts name alone does not establish features, architecture or integrations.\nAny eventual benefit depends on a future specification and implementation.\nListed for completeness as a placeholder, not a finished portfolio application."
+  ],
+  "personal-brain-os": [
+    "Brain Cockpit",
+    "Knowledge and AI tools",
+    "A self-hosted capture and processing layer for an Obsidian vault.\nAccepts notes, links, photos and audio into a reviewable filing pipeline.\nProduces ordinary Markdown notes and surfaces extracted action items.\nAdds a phone-friendly cockpit and relationship context around the vault.\nHelps users turn scattered captures into searchable knowledge and practical next steps.\nUses Python, FastAPI, React and SQLite while keeping durable notes as portable files."
+  ],
+  "brain-vault": [
+    "Brain Vault",
+    "Knowledge and AI tools",
+    "A private backup repository reserved for the Brain OS Obsidian vault.\nIts stated role is receiving vault backups from the cockpit pipeline.\nSeparates knowledge storage from the application's processing code.\nThe repository was empty when reviewed; no backup contents were inspected.\nIts intended benefit is a recoverable, versioned home for personal Markdown notes.\nBackup automation and successful recovery are not independently verified here."
+  ],
+  "brand-intelligence-os": [
+    "Brand Intelligence OS",
+    "Knowledge and AI tools",
+    "A local-first evidence collection and brand research system.\nCrawls public websites and gathers available social and advertising evidence.\nPreserves source outputs, screenshots and failed collection attempts.\nBuilds cited analysis packages for strategy reports assisted by Claude.\nHelps brand strategists connect recommendations to inspectable source material.\nBuilt with Python; unavailable evidence is kept distinct from claims that nothing exists."
+  ],
+  "ebooks-dashboard": [
+    "Shelf",
+    "Knowledge and AI tools",
+    "A private ebook dashboard for uploading and organizing EPUB and PDF files.\nConverts books to Markdown and extracts covers for a searchable library.\nCreates embeddings to support questions across the collection.\nUses a Next.js interface with a GitHub Actions processing pipeline.\nHelps readers retrieve material without manually searching each book.\nStores library artifacts in a private repository and requires configured model providers."
+  ],
+  "prompt-database": [
+    "Prompt Database",
+    "Knowledge and AI tools",
+    "A reusable prompt-library project organized by categories and prompt types.\nIts data layer supports storage, ranking, import/export and Markdown parsing.\nIncludes seed prompts and usage tracking for frequently reused material.\nSeparates state management from the planned browser interface.\nTargets easier retrieval and maintenance of recurring creative prompts.\nThe README marks the data layer complete and the restructured UI still to build."
+  ],
+  "mcp-for-marketplace": [
+    "FormEngine MCP Connector",
+    "Knowledge and AI tools",
+    "A distribution package for connecting FormEngine to Claude Code and Codex.\nContains plugin manifests, connector configuration and an MCP Registry entry.\nProvides a questionnaire-writing skill and launch preparation material.\nIts intended tools preview questionnaires and save authenticated studio drafts.\nHelps teams bring questionnaire preparation into their existing AI work tools.\nNot launched in the repository documentation; excludes sending, answer access and deletion."
+  ],
+  "private-markdown-converter": [
+    "Private Markdown Converter",
+    "Knowledge and AI tools",
+    "A locally installed web app for converting common files into Markdown.\nHandles documents, PDFs, spreadsheets, images and other supported inputs.\nOffers optional advanced PDF processing and metadata-only conversion history.\nUses a macOS launcher around a local Python and Streamlit service.\nHelps users prepare portable text for notes, search and downstream tools.\nCurrent installation needs Python and dependencies; optional integrations need their own setup."
+  ],
+  "font-drop": [
+    "Font Drop",
+    "Design and creative tools",
+    "A macOS menu-bar utility that installs fonts from newly added ZIP files.\nWatches a chosen folder and selects supported font files from incoming archives.\nPrefers OTF where available and avoids overwriting existing installed fonts.\nHandles nested archives, incomplete downloads and cloud-only file cases.\nHelps designers spend less time unpacking and installing font families by hand.\nBuilt with shell tooling and a small native wrapper; requires macOS setup prerequisites."
+  ],
+  "font-lab": [
+    "Brand Font Lab",
+    "Design and creative tools",
+    "A browser workspace for comparing a supplied list of fonts on brand text.\nResolves installed fonts, dropped files and supported online font catalogues.\nProvides comparison, wordmark and brand-proof views with per-font controls.\nExports visual proof sheets as PNG for design review.\nHelps designers evaluate their chosen typefaces using the actual words they need.\nBuilt with React and TypeScript; unavailable commercial fonts remain clearly identified."
+  ],
+  "sugoonj-patterns": [
+    "Sugoonj Cymatics Lab",
+    "Design and creative tools",
+    "A browser-based drawing tool that turns frequency settings into visual marks.\nUses numerical models of vibrating plates and fluid-surface waves.\nOffers multiple render styles for the same deterministic pattern.\nExports scalable SVG, high-resolution PNG and organized collections.\nHelps a brand develop repeatable graphic assets from a consistent generative system.\nRuns without a backend; frequency presets carry no health or wellbeing claims."
+  ],
+  "innsaeit-video-editor": [
+    "Innsaeit Video Editor",
+    "Design and creative tools",
+    "A local pipeline for turning raw vertical clips into branded short videos.\nUses an explicit edit plan through ingest, analysis, validation and rendering stages.\nSupports formats for Instagram Reels and LinkedIn posts.\nOffers Claude Code, local Ollama and deterministic editing directions as fallback options.\nHelps creators repeat a branded editing workflow when model access changes.\nBuilt with Node.js and FFmpeg; installation requires local media-processing tools."
+  ],
+  "innsaeit-wishes": [
+    "Digibouquet",
+    "Design and creative tools",
+    "An interactive digital bouquet builder for personal greetings.\nLets users choose flowers, compose a card and change the arrangement.\nSupports colorful and black-and-white presentation styles.\nCreates shareable links and story images with a saved bouquet garden.\nHelps people send a more personal visual message without physical delivery.\nBuilt with React, SVG artwork and serverless link helpers."
+  ],
+  "font-installer-mac": [
+    "Font Installer Mac \u2014 superseded",
+    "Design and creative tools",
+    "An early placeholder for a macOS font installation tool.\nIts README explicitly directs users to the working Font Drop repository.\nNo installer implementation is provided in this repository.\nKept as a reference point for older links and project history.\nThe related user benefit is automated font installation through Font Drop.\nListed as superseded rather than presented as a second completed utility."
+  ],
+  "LOGO": [
+    "Logo Experiments",
+    "Design and creative tools",
+    "A scratch repository reserved for logo explorations and source artwork.\nIts README proposes organizing concepts and final marks by brand.\nSuggested assets include editable vector files and rendered previews.\nNo logo files were present according to the repository documentation.\nThe intended benefit is a clearer handoff between concept work and approved identity assets.\nCurrently a planning container, not a shipped design application."
+  ],
+  "money-view": [
+    "Money View",
+    "Finance and local utilities",
+    "A mobile-first workspace for understanding personal cash flow.\nBrings income, spending, budgets, statements and holdings into one interface.\nUses integer paise and India-time conventions for financial records.\nIncludes a guided question interface with confirmation before supported changes.\nHelps users connect day-to-day transactions with a larger spending plan.\nBuilt with Next.js and Supabase; financial totals are kept out of hosted question routing."
+  ],
+  "wealth-os": [
+    "Personal Wealth OS",
+    "Finance and local utilities",
+    "An India-focused personal finance application built around statement imports.\nChecks statement arithmetic before allowing parsed transactions into the database.\nProvides review, categorization and financial dashboard workflows.\nTracks values in integer paise and avoids passing money values through language models.\nHelps users build a more trustworthy picture of cash flow and holdings.\nBuilt with Next.js and Supabase; repository verification covers its ingestion core."
+  ],
+  "storage-pilot": [
+    "StoragePilot",
+    "Finance and local utilities",
+    "A local macOS utility for storage audits and guided recovery.\nInventories selected folders and explains reclaimable space before actions.\nSupports verified external project copies and journaled restore workflows.\nKeeps destructive and cloud-managed operations behind explicit capability gates.\nHelps users understand disk pressure while prioritizing recoverable data.\nA Python prerelease; several GUI, restore and cloud milestones remain open."
+  ],
+  "sure_am_convertor": [
+    "Sure Import Conversion Fixtures",
+    "Finance and local utilities",
+    "A verification harness for preparing finance imports for Sure.\nContains paired sample inputs and expected transaction, trade and account CSVs.\nDocuments date formats, amount signs and category mapping expectations.\nUses synthetic fixtures to expose conversion errors before real data is imported.\nHelps a future converter preserve financial meaning across different source formats.\nThe README describes test targets; it does not establish a finished converter application."
+  ],
+  "spend-ledger": [
+    "Spend Ledger \u2014 repository placeholder",
+    "Finance and local utilities",
+    "A repository named for the Spend Ledger personal-finance project.\nIts default branch currently contains only a minimal README.\nNo expense-entry interface or processing implementation is present here.\nRelated finance work references a separate live ledger, which this repository does not document.\nThe intended area is keeping personal spending records easier to review.\nListed as a placeholder; working application capabilities cannot be inferred from its name."
+  ],
+  "keri-crafts-site": [
+    "Keri Crafts Website",
+    "Websites and brand delivery",
+    "A lightweight brand website for small-batch Gujarati pickles and preserves.\nPresents current products, taste profiles, gifting options and ordering guidance.\nOpens structured WhatsApp enquiries with product and quantity details.\nUses plain HTML and CSS without a cart or payment backend.\nHelps customers explore a batch while keeping order handling personal for the maker.\nKept public temporarily to preserve its existing GitHub Pages hosting."
+  ],
+  "atarva-website": [
+    "Avarta Website",
+    "Websites and brand delivery",
+    "A one-page website for an IT and design services business.\nUses Next.js, TypeScript, Tailwind CSS and motion components.\nIncludes a branded maintenance mode while website updates are underway.\nDocuments contact-form and booking-calendar integration points.\nHelps prospective customers understand the business and find a contact route.\nKept public temporarily because GitHub Pages is enabled for this repository."
+  ],
+  "Avarta_brand_guidelines": [
+    "Brand Portal Platform",
+    "Websites and brand delivery",
+    "A configurable platform for delivering brand guidelines and assets.\nStores each brand's tokens, content and files in its own data folder.\nRoutes multiple brand domains through one shared deployment.\nIncludes brand-aware access and a studio overview of configured portals.\nHelps teams find the correct identity assets and reuse consistent brand rules.\nBuild scripts turn structured brand data into repeatable client portals."
+  ],
+  "Design-innsaeit-Presentation": [
+    "Design Innsaeit Presentation",
+    "Websites and brand delivery",
+    "An HTML presentation introducing a branding and packaging studio.\nExplains services, working approach and selected visual case studies.\nUses browser-based slides with keyboard navigation.\nConnects brand identity and packaging work to practical business conversations.\nHelps prospective clients and referral partners understand the studio's offering.\nA presentation artifact rather than an operations application."
+  ],
+  "Design-Innsaeit-pharma": [
+    "Health Brand Pitch Collection",
+    "Websites and brand delivery",
+    "A browser-based presentation collection for health-brand outreach.\nContains a cold-outreach deck and a landing page for available presentations.\nExplains a proposed research, positioning, design and delivery approach.\nOrganizes the studio's offering for nutraceutical and OTC business conversations.\nHelps founders assess whether a brand-strategy engagement fits their needs.\nDeck content is pitch material; market figures and case claims are not independently verified here."
+  ],
+  "hitech-deck": [
+    "Hi-Tech Aircon Operations Pitch",
+    "Websites and brand delivery",
+    "A seven-slide HTML proposal for an operations-console engagement.\nFrames current coordination problems and a proposed staged delivery plan.\nSeparates foundation, visibility and later roadmap scope.\nSupports keyboard controls and browser-based presentation.\nHelps a business compare a proposed operating system with its existing workflow.\nA dependency-free pitch artifact; its roadmap is not a claim of shipped modules."
+  ],
+  "Innsaeit-os": [
+    "Innsaeit OS",
+    "Websites and brand delivery",
+    "A personal launchpad for a studio's apps and administration consoles.\nCollects app links, infrastructure dashboards and provider shortcuts.\nRenders its entries from a single typed configuration file.\nPoints to credential-management pages without storing credentials itself.\nHelps an operator spend less time finding the right service or dashboard.\nBuilt as a small web interface focused on navigation rather than business-data storage."
+  ],
+  "DI-url-shortner": [
+    "DI Link Shortener \u2014 Sink-based",
+    "Open-source adaptations",
+    "A link-shortening repository based on the open-source Sink project.\nIts documented foundation runs on Cloudflare infrastructure.\nProvides short-link management and analytics capabilities from that foundation.\nUses the upstream Nuxt and Tailwind application stack.\nCan help a studio share compact links and understand how they are used.\nUpstream implementation is credited; project-specific changes are not established by the README."
+  ],
+  "Designinnsaeit-calendar": [
+    "Design Innsaeit Calendar \u2014 Cal.diy-based",
+    "Open-source adaptations",
+    "A self-hosted scheduling repository based on Cal.diy, the Cal.com community edition.\nProvides an upstream foundation for appointment booking and calendar workflows.\nTargets personal control over scheduling infrastructure and configuration.\nCan help reduce the back-and-forth involved in arranging a meeting.\nThe README recommends personal, non-production use and requires competent server administration.\nUpstream authorship is credited; studio-specific customization is not established by the README."
+  ],
+  "sunshine-grove": [
+    "Sunshine Grove",
+    "Household wellbeing",
+    "A personal daily wellness dashboard with meals, movement and habit tracking.\nCombines editable vegetarian meal plans, recipes and shopping-list assistance.\nAdds glucose logging, charts and a space for personal reflections.\nUses streaks and lightweight progress feedback to support daily routines.\nHelps a household keep chosen plans and check-ins in one approachable interface.\nBuilt with React; designed to support an existing care plan, not provide medical advice."
+  ],
+  "sunshine-meal-planner": [
+    "Mom's Kitchen",
+    "Household wellbeing",
+    "A household meal-planning progressive web application.\nUses a shared cloud data model with local read caches.\nSupports household membership and separate admin, editor and member roles.\nIncludes authentication and configured image-upload infrastructure.\nTargets less fragmented meal coordination across people in the same household.\nBuilt with React, Vite, TypeScript and Supabase; setup requires household provisioning."
+  ]
+}

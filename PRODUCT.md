@@ -1,33 +1,21 @@
-# Product
+# Public studio profile
 
-## Register
+## Audience
 
-brand
+Clients, recruiters and collaborators assessing Vineeth Nair's multidisciplinary practice.
 
-## Users
+## Outcome
 
-Recruiters and potential collaborators exploring Vineeth Nair's design and software work on GitHub. They need a quick introduction, a few meaningful examples and a way to investigate the broader portfolio.
+Communicate brand strategy, design, consulting and software-building capabilities through clear positioning and source-grounded project narratives.
 
-## Product Purpose
+## Scope
 
-Present a designer who builds practical software through a memorable public GitHub profile. Preserve the six-line summaries for all 45 projects, explain how projects help people, and distinguish public code from private work and unfinished experiments.
+Custom GitHub profile README, original SVG identity and six project covers, six case studies, three PDF and Markdown professional profiles, all 45 six-line project summaries, public activity infographic and weekly update workflow.
 
-## Brand Personality
+## Constraints
 
-Colorful, curious, experimental. The user explicitly selected a playful creative lab over corporate styling. Keep a professional reading experience and let the visual identity demonstrate design judgment.
+GitHub-native Markdown and images; no embedded scripts or arbitrary CSS. Private source remains private. lgtv and v-home stay public; keri-crafts-site and atarva-website remain public temporarily to preserve their sites. The profile repository must also stay public.
 
-## Anti-references
+## Success checks
 
-Corporate résumé templates, badge walls, animated typing slogans, invented achievement statistics and an unbroken wall of repository descriptions. Do not present inherited open-source work as original authorship or prototypes as finished products.
-
-## Design Principles
-
-- Lead with personality and useful work before the full inventory.
-- Make each featured project explain a human problem and a concrete response.
-- Use the existing violet-and-mint avatar as a visual starting point, with intentional playful supporting colors.
-- Keep all project descriptions available without exposing private source or records.
-- Respect GitHub's native Markdown surface rather than pretending it supports a custom website.
-
-## Accessibility & Inclusion
-
-Maintain readable native text, descriptive image alternatives, clear link names and strong contrast. Use static artwork, no motion-dependent content, and a single-column flow that remains useful on narrow screens. Important identity and project information must also exist outside images.
+All portfolio links and PDFs resolve. Essential text remains readable outside artwork. All original project summaries remain available. Data ingestion rejects incomplete responses and private repository records. Workflow runs successfully on the default feature branch. Public browser rendering is inspected after publishing.
